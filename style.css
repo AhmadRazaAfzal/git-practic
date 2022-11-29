@@ -1,0 +1,1339 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    position: sticky;
+    top: 0px;
+}
+
+.nav-bar {
+    background-color: #03AA7F;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    height: 50px;
+    gap: 100px;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    cursor: pointer;
+}
+
+.you-online-left-heading {
+
+    color: white;
+
+
+}
+
+.search-svg {
+    background-color: #ffffff;
+    padding-right: 10px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+
+}
+
+.svg {
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.search-svg input {
+    border: none;
+    outline: none;
+    width: 800px;
+}
+
+.you-online-right {
+    display: flex;
+    gap: 20px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.nav-button {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 6px;
+    color: #03AA7F;
+    outline: none;
+    cursor: pointer;
+}
+
+.you-online-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.nav-bar-img {
+    width: 30px;
+    height: 30px;
+    /* background-color: red; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80);
+    border-radius: 50%;
+}
+
+.dubai-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.ALL-CATEGORIES {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 50px;
+}
+
+.ALL-CATEGORIES .ALL-CATEGORIES-heading h3 {
+    color: #555555;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.ALL-CATEGORIES-section {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding-left: 220px;
+
+}
+
+.ALL-CATEGORIES-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    gap: 5px;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.dashboard {
+    width: 100%;
+    /* height: 1000px; */
+    display: flex;
+}
+
+.dashboard-left {
+    background-color: #ffffff;
+    box-shadow: 10px 30px 20px rgba(0, 0, 0, 0.06);
+    width: 350px;
+    height: 1200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+.dashboard-right {
+    /* background-color:black; */
+    flex: 1;
+    height: 1100px;
+    max-width: 1200px;
+    padding-left: 80px;
+    padding-top: 50px;
+    cursor: pointer;
+
+}
+
+.dashboard-img {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    /* background-color: red; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80);
+}
+
+.dashboard-left .dashboard-heading {
+    color: #000000;
+    text-align: center;
+    padding-top: 12px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.dashboard-left .dashboard-heading span {
+    color: #555555;
+}
+
+.dashboard-left .dashboard-para {
+    color: #555555;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.Dashboard-drop-down {
+    display: flex;
+    gap: 10px;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 30px;
+    background-color: #E8FFF2;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+.Dashboard-drop-down-svg {
+    background-color: #03AA7F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.Manage-Ads {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 30px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.Manage-Ads-svg {
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.Manage-Ads-heading h3 {
+    color: #555555;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.Saved-Ads {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+    padding: 10px 10px;
+
+
+}
+
+.Saved-Ads-svg {
+
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.Saved-Ads-heading h3 {
+    color: #555555;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.Saved-Resume {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+.Saved-Resume-svg {
+
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+.Saved-Resume-heading h3 {
+    color: #555555;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.My-Jobs {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+.My-Jobs-svg {
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.My-Jobs-heading h3 {
+    color: #555555;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.Account-Settings {
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+.Account-Settings-svg {
+
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.Account-Settings-heading h3 {
+    color: #555555;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.Logout {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 30px;
+    padding: 10px
+}
+
+.logout-svg {
+
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.logout-heading h3 {
+    color: #555555;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.dasnboard-left-bottom {
+    width: 220px;
+    height: 300px;
+    cursor: pointer;
+    background-color: #03AA7F;
+    margin-top: 60px;
+    padding-left: 20px;
+    padding-top: 12px;
+    border-radius: 10px;
+    padding-top:30px ;
+    padding-bottom: 20px;
+}
+
+
+.dasnboard-left-bottom-svg {
+    padding-top: 10px;
+}
+
+.dasnboard-left-bottom-heading {
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+    padding-top: 20px;
+}
+
+.dasnboard-left-bottom-para {
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    padding-top: 10px;
+}
+
+.dasnboard-left-bottom-button {
+    background: #F48141;
+    padding: 10px 40px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+}
+
+
+.dashboard-right-heading {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.dashboard-right-midle {
+    /* background-color: red; */
+    width: 1050px;
+    height: 1100;
+    cursor: pointer;
+}
+
+.dashboard-right-midle2 {
+    /* padding-right: 100px; */
+    /* padding-left: 50px; */
+    margin-top: 100px;
+    width: 350px;
+    height: 700px;
+    border-radius: 6px;
+    margin-right: 30px;
+    background-color: white;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.151);
+
+}
+
+.ads {
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
+    /* justify-content: space-around; */
+}
+
+
+.Active-Ads {
+    background-color: #FF9F1C;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    width: 260px;
+    height: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex: 1;
+    /* justify-content: space-around; */
+
+}
+
+.Active-Ads-svg {
+    background-color: #FFFFFF66;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Active-Ads-heading {
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.Active-Ads-para {
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+.Total-Ad-Views {
+    background-color: #4460F0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    width: 260px;
+    height: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex: 1;
+}
+
+.total-Ad-Views-svg {
+
+    background-color: #FFFFFF66;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.total-Ad-Views-heading {
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.total-Ad-Views-para {
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.Total-Profile-Views {
+
+    background-color: #FF6B6B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    width: 260px;
+    height: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex: 1;
+}
+
+.Total-Profile-Views-svg {
+    background-color: #FFFFFF66;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Total-Profile-Views-heading {
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.Total-Profile-Views-para {
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.Active-Ads-05 {
+    display: flex;
+    margin-top: 30px;
+    gap: 500px;
+    padding-bottom: 10px;
+}
+
+.Active-Ads-05-right {
+    display: flex;
+    gap: 10px;
+    /* align-items: center; */
+}
+
+.Active-Ads-05-right-svg1 {
+    background-color: #DEFFE3;
+    border: 1px solid #03AA7F;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+}
+
+.Active-Ads-05-right-svg2 {
+    background-color: #F9F9FD;
+    border: 1px solid #D8D1D1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+.Active-Ads-05-right-svg2-para {
+    color: #555555;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+
+
+.Active-Ads-05-right-svg3 {
+    background-color: #F9F9FD;
+    border: 1px solid #D8D1D1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+.Active-Ads-05-right-svg3-para {
+    color: #555555;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.Active-Ads-05-right-svg4 {
+    background-color: #F9F9FD;
+    border: 1px solid #D8D1D1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 5px;
+    padding: 0px 10px
+}
+
+.Active-Ads-05-right-svg4-para {
+    color: #555555;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.dashboard-right-midle2-heading {
+
+    padding-top: 30px;
+    padding-left: 30px;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+.dashboard-right-midle2-img {
+    width: 200px;
+    height: 200px;
+    /* background-color: red; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80);
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+}
+
+.dashboard-right-midle2-heading2 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.dashboard-right-midle2-para2 {
+    color: #7A7A7A;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.dashboard-right-midle2-heading3 {
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.dashboard-right-midle2-para3 {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    color: #7A7A7A;
+}
+
+.dashboard-right-midle2-button1 {
+    background-color: #03AA7F;
+    border: none;
+    padding: 20px 80px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+
+
+}
+
+
+.dashboard-right-midle2-button2 {
+    background-color: #03AA7F;
+    border: none;
+    padding: 20px 74px;
+    margin-top: 3px;
+    margin-left: 50px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+
+
+
+}
+
+.Featured{
+    display: flex;
+    margin-top: 40px;
+    gap: 15px;
+}
+
+.Featured1{
+    width: 250px;
+    height: 350px;
+    /* background-color: red; */
+    border-radius: 10px;
+    box-shadow: 0px 2.46365px 4.92729px rgba(0, 0, 0, 0.1);
+}
+
+.Featured2{
+    width: 250px;
+    height: 350px;
+    /* background-color: pink; */
+    box-shadow: 0px 2.46365px 4.92729px rgba(0, 0, 0, 0.1);
+    
+}
+
+.Featured3{
+    width: 250px;
+    height: 350px;
+    /* background-color: #03AA7F; */
+    box-shadow: 0px 2.46365px 4.92729px rgba(0, 0, 0, 0.1);
+}
+
+
+.Featured4{
+    width: 250px;
+    height: 350px;
+    /* background-color: #F48141; */
+    box-shadow: 0px 2.46365px 4.92729px rgba(0, 0, 0, 0.1);
+}
+
+.Featured1-img{
+    width: 250px;
+    height: 170px;
+    background-image:url(https://images.unsplash.com/photo-1659535979248-bf5954d21328?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-color: green;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+
+
+.Featured1-botom{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center;  */
+}
+.Featured-bottom{
+    margin-top: 50px;
+    width: 250px;
+    height: 365px;
+    /* background-color: #000000; */
+
+    box-shadow: 0px 2.46365px 4.92729px rgba(0, 0, 0, 0.1);
+
+}
+.Featured-bottom-img{
+    width: 250px;
+    height: 170px;
+    background-image:url(https://images.unsplash.com/photo-1668381137695-151e39e5de46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80);
+    background-color: green;
+    border-radius: 5px;
+    background-position: center;background-size: cover;
+}
+
+.Featured1-botom-img{
+    width: 70px;
+    height: 70px;
+    /* background-color: palevioletred; */
+    border: 1.47819px solid #FFFFFF;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    background-image: url(https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80);
+    border-radius: 50%;
+    transform: translatey(-50%);
+    margin-left: 10px;
+
+}
+
+.Featured1-botom-icon{
+    display: flex;
+    background-color: #03AA7F;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 20px;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-right: 7px;
+    
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.Featured1-botom-icon-heading{
+    font-size: 10px;
+    color: white;
+    /* padding-top: 2px; */
+    font-family: Dancing Script;
+    font-weight: 400;
+}
+.Awami-Villas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.Awami-Villas-heading{
+    color:#272727;
+    font-size: 13px;
+    font: Inter;
+    font-weight: 700;
+    /* font-size: 8px; */
+}
+
+.Awami-Villas-icon{
+    width: 20px;
+    height: 20px;
+    background-color: #e6fff9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1px;
+}
+.Business-Bay-Dubai{
+    display: flex;
+    margin-left: 13px;
+    padding-top: 5px;
+    gap: 7px;
+}
+.Business-Bay-Dubai-heading p{
+    color: #555555;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.dolor{
+    padding-left: 14px;
+    padding-top: 2px;
+    color: #03AA7F;
+    font-weight: 600;
+}
+
+.hr-line1{
+    width: 250px;
+    height: 2px;
+    background-color: #F0F0F0;
+    margin-top: 10px;
+}
+.Beds{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-right: 80px;
+}
+.beds1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.beds1-heading p{
+    color: #555555;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.beds2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.beds2-heading p{
+    color: #555555;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.beds3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}
+
+.beds3-heading p{
+    color: #555555;
+    font-weight: 500;
+    font-size: 15px;
+}
+.Featured2-img{
+    width:250px;
+    height: 170px;
+    background-image: url(https://plus.unsplash.com/premium_photo-1668565018922-d66cd81e2cc5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    /* background-color: green; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Featured2-img-botom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Featured2-botom-img{
+    width: 70px;
+    height: 70px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1.47819px solid #FFFFFF;
+    /* background-color: palevioletred; */
+    background-image: url(https://images.unsplash.com/photo-1595347097560-69238724e7bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    border-radius: 50%;
+    transform: translatey(-50%);
+    margin-left: 10px;
+}
+
+.Featured2-botom-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    background-color: #03AA7F;
+    width: 50px;
+    height: 20px;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-radius: 2px;
+}
+
+.Awami-Villas2{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.Awami-Villas2-icon{
+    background-color: #E6FFF9;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Awami-Villas2-heading{
+    font-weight: 700;
+    font-size: 13px;
+    padding-left: 11px;
+    color: #272727;
+}
+
+.Business-Bay-Dubai2{
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+.Business-Bay-Dubai2-heading{
+    color: #555555;
+    font-weight: 500;
+    font-size:12px;
+    /* padding-left: 10px; */
+}
+
+.dolor2{
+    color: #03AA7F;
+    font-weight: 600;
+    font-size: 15px;
+    padding-left: 13px;
+}
+
+.hr2{
+    width: 250px;
+    height: 2px;
+    background-color: #F0F0F0;
+    margin-top: 13px;
+}
+
+.Beds2-botom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    gap: 15px;
+}
+
+.Beds2-botom1{
+    display: flex;
+    /* gap: 10px; */
+}
+.Beds2-botom1-heading{
+    color: #555555;
+    font-weight: 400;
+    font-size: 12px;
+}
+.Featured3-img{
+    width: 250px;
+    height: 170px;
+    /* background-color: green; */
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    background-image: url(https://images.unsplash.com/photo-1558769132-92e717d613cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80);
+  
+}
+
+.Featured3-botom-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transform: translatey(-50%);
+    margin-left: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1.47819px solid #FFFFFF;
+    background-image: url(https://images.unsplash.com/photo-1668626315810-0709750b3a61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1944&q=80);
+}
+
+.Featured3-img-icon{
+    background-color: #03AA7F;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    gap: 10px;
+    width: 50px;
+    height: 20px;
+    margin-top: 7px;
+}
+.Featured3-img-botom{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+}
+
+
+.AwamiVillas3{
+    display: flex;
+    align-items: center;
+    gap:40px;
+    margin-left: 20px;
+}
+
+.AwamiVillas3-icon{
+    display: flex;
+    background-color: #E6FFF9;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.AwamiVillas3-heading p{
+    color: #272727;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.Business-Bay-Dubai3{
+    display: flex;
+    margin-left: 20px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 7px;
+    padding-top: 5px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #555555;
+}
+
+.dolor3{
+    color: #03AA7F;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 25px;
+}
+
+.hr3{
+    width: 250px;
+    height: 2px;
+    background-color: #F0F0F0;
+    margin-top: 17px;
+}
+
+.Featured4-img{
+    width: 250px;
+    height: 170px;
+    /* background-color: green; */
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1551117425-5e0f451ca10e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);    
+}
+
+.Featured4-botom-img{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Featured4-img-botom{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    /* background-color: palevioletred; */
+    background-position: center;
+    background-size: cover;
+    border: 1.47819px solid #FFFFFF;
+    background-image: url(https://images.unsplash.com/photo-1583071299210-c6c113f4ac91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80);
+    transform: translatey(-50%);
+    margin-left: 10px;
+
+}
+          
+.Featured4-img-botom-icon{
+    display: flex;
+    gap: 5px;
+    background-color: #03AA7F;
+    width:40px ;
+    height:20px ;
+    margin-top: 5px;
+}
+.Business-Bay-Dubai4{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 20px;
+}
+.Business-Bay-Dubai4-heading{
+    color: #272727;
+    font-weight: 700;
+    font-size: 12px;
+}
+.Business-Bay-Dubai4-icon{
+    /* display: flex; */
+    /* gap: 50px; */
+    background-color: #d7f8f0;
+    align-items: center;
+    justify-content: center;
+}
+
+.Business-Dubai-4{
+    display: flex;
+    margin-left: 20px;
+    gap: 5px;
+
+    align-items: center;
+    margin-top: 7px;
+}
+
+.Business-Dubai4-heading{
+    color: #555555;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.dolor4{
+    margin-left: 25px;
+    padding-top: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #03AA7F;
+}
+.hr4{
+    width: 250px;
+    height: 2px;
+    margin-top: 10px;
+    background-color:#F0F0F0;
+}
+.Featured-img-botom{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transform: translatey(-50%);
+    margin-left: 10px;
+    /* background-color: palevioletred; */
+    background-position: center;
+    background-size: cover;
+    border: 1.47819px solid #FFFFFF;
+    background-image: url(https://images.unsplash.com/photo-1583071299210-c6c113f4ac91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80);
+}
+
+.Featured-bottom-img1{
+    display: flex;
+    justify-content: space-between;
+}
+.Featured-img-botom-icon{
+    margin-right: 6px;
+}
+
+.Awami-Villas-feautred{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Awami-Villas-feautred-icon{
+    background-color: #E6FFF9;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Awami-Villas-feautred-heading{
+    color: #272727;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.Business-Bay-featured{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    gap: 10px;
+    align-items: center;
+}
+.Business-Bay-featured-heading{
+    color: #555555;
+    font-weight: 500;
+    font-size: 12px;
+}
+.dolor-reatured{
+    color: #03AA7F;
+    font-weight: 800;
+    font-size: 14px;
+    margin-left: 13px;
+}
+
+.hr-featured{
+    width: 250px;
+    height: 2px;
+    background-color: #F0F0F0;
+    margin-top: 10px;
+}
+
+.View-All-Ads{
+    background-color: #03AA7F;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    margin-left: 520px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Manage-Ads:hover{
+    background-color:rgb(232,255,242);
+}
+
+.Manage-Ads-svg:hover{
+    background-color: #03AA7F;
+}
+.Saved-Ads:hover{
+    background-color:rgb(232,255,242);
+    
+
+}
+.Saved-Ads-svg:hover{
+    background-color: #03AA7F;
+
+}
+
+.Saved-Resume:hover{
+    
+    background-color:rgb(232,255,242);
+
+}
+
+.Saved-Resume-svg:hover{
+    background-color: #03AA7F;
+}
+.My-Jobs:hover{
+    background-color:rgb(232,255,242);
+}
+.My-Jobs-svg:hover{
+    background-color: #03AA7F;
+}
+.Account-Settings:hover{
+    background-color:rgb(232,255,242);
+}
+
+
+.Account-Settings-svg:hover{
+    background-color: #03AA7F;
+}
+.Logout:hover{
+    background-color:rgb(232,255,242);
+
+}
+
+.logout-svg:hover{
+    background-color: #03AA7F;
+    color: white;
+
+}
